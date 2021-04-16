@@ -52,10 +52,10 @@ body {
   justify-content: space-around;
 }
 
-.profile-pic {
+/* .profile-pic {
   display: flex;
   justify-content: center;
-}
+} */
 
 #pic1 {
   margin: 3px;
