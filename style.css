@@ -103,11 +103,12 @@ body {
   grid-area: sidebar;
 }
 
-.grid-container {
+/* .grid-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
+*/
 
   /* .grid-container {
 display: grid;
@@ -123,12 +124,10 @@ display: grid;
   padding: 10px;
 }
 
-/* 
 .links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
 } 
-*/
 
 .date {
   width: 9.5rem;
