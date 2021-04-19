@@ -18,16 +18,11 @@ h1 {
   margin: 0;
 }
 
-hr {
-  color: white;
+.title-pic {
+  margin: 0;
 }
 
 #name {
-  display: grid;
-  grid-template-columns: 0.33fr 0.66fr;
-  /* grid-template-rows: 0.25fr 0.25fr 0.25fr;
-  grid-row: 1 / 4;
-  grid-column: 1 / 3; */
   background-color: #0c3140;
   /* background: linear-gradient(to bottom, #60aebf, #0c3140); */
   color: white;
@@ -100,14 +95,40 @@ body {
   border-color: white;
 }
 
+.content {
+  grid-area: content;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+  /* .grid-container {
+display: grid;
+  grid-gap: 0;
+  grid-template-areas: "content" "sidebar";
+  grid-template-columns: auto 0.1fr;
+  grid-template-rows: 0.25fr 0.25fr 0.25fr 0.25fr;
+  grid-row: 1 / 4;
+  grid-column: 1 / 3; */
+}
+
 #padding1 {
   padding: 10px 0 0 10px;
 }
 
+/* 
 .links {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: flex-end;
+} 
+*/
 
 .date {
   width: 9.5rem;
